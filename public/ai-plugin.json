@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "RocketCart Store",
+  "name_for_model": "rocketcart_storefront",
+  "description_for_human": "Shopify shopping assistant for RocketCart. Helps search, cart, and checkout.",
+  "description_for_model": "Lets the assistant browse and transact using the RocketCart Shopify Storefront API.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://rocketcart-mcp.vercel.app/shopify-openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://rocketcart.ai/logo.png",
+  "contact_email": "support@rocketcart.ai",
+  "legal_info_url": "https://rocketcart.ai/legal"
+}
